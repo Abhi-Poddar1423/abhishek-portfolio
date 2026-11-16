@@ -126,10 +126,10 @@ document.addEventListener('DOMContentLoaded', () => {
   if (typewriterElement) {
     const roles = [
       'Computer Science & Engineering Student',
-      'Java & OOP Programmer',
-      'Data Structures & Algorithms Enthusiast',
-      'Software Developer in Training',
-      'Web Development Explorer'
+      'Learning Java, C, C++ & Python',
+      'Practicing DSA using Java',
+      'Studying OOP & Building Projects',
+      'Learning Web Development (HTML, CSS, JS)'
     ];
 
     let roleIndex = 0;
