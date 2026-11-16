@@ -1363,6 +1363,10 @@ button, input, textarea {
   margin-bottom: 1.25rem;
 }
 
+.edu-details:last-child {
+  margin-bottom: 0;
+}
+
 .coursework-title {
   font-family: var(--font-heading);
   font-size: 0.9rem;

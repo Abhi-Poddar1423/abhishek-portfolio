@@ -91,7 +91,7 @@ abhishek-portfolio/
 4. **Education (`education.html`)**:
    - Interactive vertical timeline with glassmorphic cards and custom vector icons:
      - **Current Education**: Bachelor of Technology (B.Tech) in Computer Science & Engineering (CSE) at Chandigarh Engineering College, affiliated with I.K. Gujral Punjab Technical University (IKGPTU) (2025–2029, Currently Pursuing).
-     - **Higher Secondary Education**: Class 12th (Senior Secondary, Science) at Happy Valley School, CBSE (Passing Year: 2024, Completed).
+     - **Higher Secondary Education**: Class 12th (Senior Secondary) at Happy Valley School, CBSE (Passing Year: 2024, Completed).
 5. **Featured Projects (`projects.html`)**:
    - **Smart Campus Lost & Found**: Java, Swing GUI, JDBC, MySQL relational database management system. Includes "Architecture Details" interactive modal.
    - **Java DSA Journey**: Pure Java data structures and algorithm implementations with time & space complexity analysis. Includes "Implementation Details" modal.
