@@ -1,5 +1,5 @@
 /**
- * Abhishek - Developer Portfolio
+ * Abhishek Kumar - Developer Portfolio
  * Vanilla JavaScript (ES6+)
  * Performance-focused, accessible, zero third-party framework dependencies
  */
@@ -448,10 +448,10 @@ document.addEventListener('DOMContentLoaded', () => {
           submitBtn.disabled = false;
           submitBtn.innerHTML = originalBtnText;
 
-          showToast('Message Ready!', 'Thank you! Your mail client can now send this directly to Abhishek.');
+          showToast('Message Ready!', 'Thank you! Your mail client can now send this directly to Abhishek Kumar.');
           
           // Construct mailto link fallback
-          const recipient = 'abhishekgoyat458@gmail.com';
+          const recipient = 'abhishekpoddar8409224011@gmail.com';
           const mailtoSubject = encodeURIComponent(`[Portfolio] ${subjectInput.value.trim()}`);
           const mailtoBody = encodeURIComponent(
             `Name: ${nameInput.value.trim()}\nEmail: ${emailInput.value.trim()}\n\nMessage:\n${messageInput.value.trim()}`

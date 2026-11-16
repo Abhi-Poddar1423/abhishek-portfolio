@@ -1801,6 +1801,24 @@ button, input, textarea {
   flex-shrink: 0;
 }
 
+.contact-icon-box.purple {
+  background: rgba(139, 92, 246, 0.12);
+  border-color: rgba(139, 92, 246, 0.25);
+  color: var(--vibrant-purple);
+}
+
+.contact-icon-box.pink {
+  background: rgba(236, 72, 153, 0.12);
+  border-color: rgba(236, 72, 153, 0.25);
+  color: var(--vivid-pink);
+}
+
+.contact-icon-box.x-icon {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
 .contact-item-title {
   font-family: var(--font-heading);
   font-size: 0.8rem;
@@ -2126,6 +2144,10 @@ textarea.form-control {
 @media (max-width: 580px) {
   :root {
     --header-height: 70px;
+  }
+
+  .brand-logo {
+    font-size: 1.15rem;
   }
 
   .section-title {

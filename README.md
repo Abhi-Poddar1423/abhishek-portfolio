@@ -1,6 +1,6 @@
-# Abhishek — Developer Portfolio Website
+# Abhishek Kumar — Developer Portfolio Website
 
-A complete, high-performance, responsive developer portfolio website designed for **Abhishek**, a Computer Science and Engineering student focused on **Software Development**, **Java Programming**, **Data Structures & Algorithms (DSA)**, and **Web Development**.
+A complete, high-performance, responsive developer portfolio website designed for **Abhishek Kumar**, a Computer Science and Engineering student focused on **Software Development**, **Java Programming**, **Data Structures & Algorithms (DSA)**, and **Web Development**.
 
 Built strictly using **HTML5**, **CSS3**, and **Vanilla JavaScript (ES6+)** with zero third-party frameworks or dependencies (no React, Bootstrap, or Tailwind).
 
@@ -53,7 +53,8 @@ abhishek-portfolio/
     │   ├── mail.svg
     │   ├── map-pin.svg
     │   ├── sparkles.svg
-    │   └── terminal.svg
+    │   ├── terminal.svg
+    │   └── x.svg                # Twitter / X vector icon
     │
     └── images/                  # Custom SVGs & project showcase illustrations
         ├── avatar.svg           # Stylized developer silhouette with glowing ring
@@ -76,36 +77,30 @@ The portfolio showcases **only** verified student competencies without inflated 
 
 ---
 
+## 📬 Contact Details & Profiles
+
+- **Email**: [abhishekpoddar8409224011@gmail.com](mailto:abhishekpoddar8409224011@gmail.com)
+- **LinkedIn**: [https://www.linkedin.com/in/abhishek-kumar-2b60b3326](https://www.linkedin.com/in/abhishek-kumar-2b60b3326)
+- **GitHub**: [https://github.com/Abhi-Poddar1423](https://github.com/Abhi-Poddar1423)
+- **Twitter / X**: [https://x.com/AbhiPoddar1423](https://x.com/AbhiPoddar1423)
+
+---
+
 ## 🧩 Sections Included
 
 1. **Header & Navigation**: Fixed blurred navigation bar with brand logo, smooth scroll links, contact button, and accessible mobile hamburger drawer.
-2. **Hero**: Headline, dynamic typing role carousel, elevator pitch, CTA buttons, quick academic stats, and interactive Java code window.
-3. **About Me**: Narrative bio detailing Abhishek's engineering approach and 4 core engineering pillars (Software Development, Java & OOP, DSA, Web & Databases).
+2. **Hero**: Headline featuring **Abhishek Kumar**, dynamic typing role carousel, elevator pitch, CTA buttons, quick academic stats, and interactive Java code window.
+3. **About Abhishek Kumar**: Narrative bio detailing Abhishek Kumar's engineering approach and 4 core engineering pillars (Software Development, Java & OOP, DSA, Web & Databases).
 4. **Technical Skills**: Focused, beginner-friendly skill cards categorized into Programming Languages, Database, OOP, DSA, and Web Development with interactive filter tabs.
 5. **Education**: Interactive vertical timeline covering Bachelor of Technology in CSE and Higher Secondary schooling with relevant coursework tags.
 6. **Featured Projects**:
    - **Smart Campus Lost & Found**: Java, Swing GUI, JDBC, MySQL relational database management system. Includes "Architecture Details" interactive modal.
    - **Java DSA Journey**: Pure Java data structures and algorithm implementations with time & space complexity analysis. Includes "Implementation Details" modal.
    - **Full-Stack Web App (In Development)**: Future project slot.
-7. **GitHub Activity**: Visual layout with stats cards, simulated activity heatmap, and direct CTA to Abhishek's live GitHub profile.
+7. **GitHub Activity**: Visual layout with stats cards, simulated activity heatmap, and direct CTA to Abhishek Kumar's live GitHub profile.
 8. **Achievements & Certifications**: Structured cards with placeholders for authentic certificates, milestones, and credential IDs with verification notes.
-9. **Contact**: Direct communication cards (Email, LinkedIn, GitHub, Location) and a client-side validated contact form with feedback toast.
+9. **Contact**: Direct communication cards with professional icons for Email, LinkedIn, GitHub, and Twitter / X, plus a client-side validated contact form with feedback toast.
 10. **Footer**: Quick site navigation, copyright notice, social links, and smooth back-to-top floating button.
-
----
-
-## ⚙️ How to Personalize Placeholders
-
-All placeholders follow the bracketed format `[Placeholder]` so you can easily find and replace them:
-
-| Placeholder | Where to Update | Description |
-|---|---|---|
-| `[your-github-username]` | `index.html`, `js/script.js` | Your real GitHub username (e.g. `github.com/abhishek`) |
-| `[your-linkedin-username]` | `index.html` | Your real LinkedIn vanity URL |
-| `[Your City, State, Country]` | `index.html` (Contact section) | Your current location or college town |
-| `[Your College / University Name]` | `index.html` (Education section) | Your university or engineering institute |
-| `[202X – 202X]` | `index.html` (Education section) | Your graduation or academic batch years |
-| `[Certification Name]`, `[Issuer]` | `index.html` (Achievements section) | Replace with your verified certificates & credential links |
 
 ---
 
