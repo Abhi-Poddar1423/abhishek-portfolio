@@ -53,9 +53,11 @@ abhishek-portfolio/
     │   ├── database.svg
     │   ├── external-link.svg
     │   ├── github.svg
+    │   ├── graduation-cap.svg   # Graduation cap vector icon for B.Tech CSE
     │   ├── linkedin.svg
     │   ├── mail.svg
     │   ├── map-pin.svg
+    │   ├── school.svg           # School building vector icon for Class 12th
     │   ├── sparkles.svg
     │   ├── terminal.svg
     │   └── x.svg                # Twitter / X vector icon
@@ -75,8 +77,8 @@ abhishek-portfolio/
    - Hero section with role badge, dynamic typewriter effect, elevator pitch, quick statistics, and interactive Java code window with copy button.
    - Quick portfolio exploration cards linking directly to About, Skills, Projects, and Contact.
 2. **About Me (`about.html`)**:
-   - Comprehensive narrative bio detailing Abhishek Kumar's engineering mindset.
-   - Four Core Engineering Pillars (Software Engineering, Java & OOP Mastery, Data Structures & DSA, Web & Databases).
+   - Realistic narrative bio detailing Abhishek Kumar's journey as a Computer Science & Engineering student.
+   - Four Learning Pillars: Programming Languages (C, C++, Java, Python), Object-Oriented Programming (Java & Python), Data Structures & Algorithms (Java), and Web Development Basics (HTML, CSS, JS).
    - Custom developer portrait visual (`assets/images/avatar.svg`).
 3. **Technical Skills (`skills.html`)**:
    - Interactive category filter navigation (All, Programming Languages, Database, OOP, DSA, Web Development).
@@ -87,7 +89,9 @@ abhishek-portfolio/
      - **Data Structures & Algorithms**: DSA using Java
      - **Web Development**: HTML, CSS, JavaScript
 4. **Education (`education.html`)**:
-   - Interactive vertical timeline covering Bachelor of Technology in CSE and Higher Secondary schooling with relevant coursework tags.
+   - Interactive vertical timeline with glassmorphic cards and custom vector icons:
+     - **Current Education**: Bachelor of Technology (B.Tech) in Computer Science & Engineering (CSE) at Chandigarh Engineering College, affiliated with I.K. Gujral Punjab Technical University (IKGPTU) (2025–2029, Currently Pursuing).
+     - **Higher Secondary Education**: Class 12th (Senior Secondary, Science) at Happy Valley School, CBSE (Passing Year: 2024, Completed).
 5. **Featured Projects (`projects.html`)**:
    - **Smart Campus Lost & Found**: Java, Swing GUI, JDBC, MySQL relational database management system. Includes "Architecture Details" interactive modal.
    - **Java DSA Journey**: Pure Java data structures and algorithm implementations with time & space complexity analysis. Includes "Implementation Details" modal.
