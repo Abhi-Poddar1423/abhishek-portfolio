@@ -17,7 +17,6 @@ Built strictly using **HTML5**, **CSS3**, and **Vanilla JavaScript (ES6+)** with
   - Animated student status badge.
   - Interactive project deep-dive modal dialogs with smooth transitions.
   - Clean, beginner-friendly Technical Skills showcase with category filters.
-  - Interactive GitHub activity matrix layout preview.
   - Client-side validated contact form with customized toast notification and mailto dispatch fallback.
   - Active section navigation tracking via `IntersectionObserver`.
   - Scroll-reveal animations on viewport entry.
@@ -97,10 +96,8 @@ The portfolio showcases **only** verified student competencies without inflated 
    - **Smart Campus Lost & Found**: Java, Swing GUI, JDBC, MySQL relational database management system. Includes "Architecture Details" interactive modal.
    - **Java DSA Journey**: Pure Java data structures and algorithm implementations with time & space complexity analysis. Includes "Implementation Details" modal.
    - **Full-Stack Web App (In Development)**: Future project slot.
-7. **GitHub Activity**: Visual layout with stats cards, simulated activity heatmap, and direct CTA to Abhishek Kumar's live GitHub profile.
-8. **Achievements & Certifications**: Structured cards with placeholders for authentic certificates, milestones, and credential IDs with verification notes.
-9. **Contact**: Direct communication cards with professional icons for Email, LinkedIn, GitHub, and Twitter / X, plus a client-side validated contact form with feedback toast.
-10. **Footer**: Quick site navigation, copyright notice, social links, and smooth back-to-top floating button.
+7. **Contact**: Direct communication cards with professional icons for Email, LinkedIn, GitHub, and Twitter / X, plus a client-side validated contact form with feedback toast.
+8. **Footer**: Quick site navigation, copyright notice, social links, and smooth back-to-top floating button.
 
 ---
 

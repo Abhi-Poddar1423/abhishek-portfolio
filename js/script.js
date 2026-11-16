@@ -353,39 +353,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // ==========================================================================
-  // 8. Simulated Contribution Activity Grid Mockup
-  // ==========================================================================
-  const matrixGrid = document.getElementById('matrixGrid');
-  if (matrixGrid) {
-    // Generate 112 cells (28 columns x 4 rows) with realistic activity pattern
-    const totalCells = 112;
-    const fragment = document.createDocumentFragment();
-
-    for (let i = 0; i < totalCells; i++) {
-      const cell = document.createElement('div');
-      cell.classList.add('matrix-cell');
-
-      // Controlled distribution: mostly active CSE coding pattern
-      const rand = Math.random();
-      if (rand > 0.78) {
-        cell.classList.add('cell-4');
-      } else if (rand > 0.55) {
-        cell.classList.add('cell-3');
-      } else if (rand > 0.35) {
-        cell.classList.add('cell-2');
-      } else if (rand > 0.15) {
-        cell.classList.add('cell-1');
-      } else {
-        cell.classList.add('cell-0');
-      }
-
-      fragment.appendChild(cell);
-    }
-    matrixGrid.appendChild(fragment);
-  }
-
-  // ==========================================================================
-  // 9. Contact Form Validation & Interactive Feedback
+  // 8. Contact Form Validation & Interactive Feedback
   // ==========================================================================
   const contactForm = document.getElementById('contactForm');
   const nameInput = document.getElementById('senderName');
@@ -477,7 +445,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ==========================================================================
-  // 10. Toast Notification System
+  // 9. Toast Notification System
   // ==========================================================================
   const toast = document.getElementById('toastNotice');
   const toastTitle = document.getElementById('toastTitle');
@@ -499,7 +467,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ==========================================================================
-  // 11. Back to Top Button
+  // 10. Back to Top Button
   // ==========================================================================
   const backToTopBtn = document.getElementById('backToTopBtn');
 
