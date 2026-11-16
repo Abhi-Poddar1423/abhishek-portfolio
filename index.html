@@ -219,12 +219,16 @@
     <span class="token-string">"HTML, CSS, JavaScript"</span>
   };
 
-  <span class="token-keyword">public void</span> <span class="token-method">learnAndBuild</span>() {
-    <span class="token-keyword">while</span> (isLearning) {
-      studyConcepts();
-      practiceDSA();
-      buildPracticalProjects();
+  <span class="token-keyword">public void</span> <span class="token-method">displayJourney</span>() {
+    <span class="token-type">System</span>.out.println(<span class="token-string">"Student: "</span> + name);
+    <span class="token-type">System</span>.out.println(<span class="token-string">"Status: "</span> + status);
+    <span class="token-keyword">for</span> (<span class="token-type">String</span> topic : learning) {
+      <span class="token-type">System</span>.out.println(<span class="token-string">"Learning -> "</span> + topic);
     }
+  }
+
+  <span class="token-keyword">public static void</span> <span class="token-method">main</span>(<span class="token-type">String</span>[] args) {
+    <span class="token-keyword">new</span> <span class="token-class">Student</span>().displayJourney();
   }
 }</code></pre>
               </div>
@@ -232,7 +236,7 @@
               <div class="code-window-footer">
                 <div class="status-indicator">
                   <span class="status-dot-sm"></span>
-                  <span>Compiled Successfully (JDK 17)</span>
+                  <span>Java Learning Journey</span>
                 </div>
                 <span>UTF-8</span>
               </div>
