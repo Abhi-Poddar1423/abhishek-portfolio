@@ -1,6 +1,6 @@
-# Abhishek Kumar — Developer Portfolio Website
+# Abhishek Kumar — Multi-Page Developer Portfolio Website
 
-A complete, high-performance, responsive developer portfolio website designed for **Abhishek Kumar**, a Computer Science and Engineering student focused on **Software Development**, **Java Programming**, **Data Structures & Algorithms (DSA)**, and **Web Development**.
+A complete, high-performance, responsive multi-page developer portfolio website designed for **Abhishek Kumar**, a Computer Science and Engineering student focused on **Software Development**, **Java Programming**, **Data Structures & Algorithms (DSA)**, and **Web Development**.
 
 Built strictly using **HTML5**, **CSS3**, and **Vanilla JavaScript (ES6+)** with zero third-party frameworks or dependencies (no React, Bootstrap, or Tailwind).
 
@@ -8,6 +8,7 @@ Built strictly using **HTML5**, **CSS3**, and **Vanilla JavaScript (ES6+)** with
 
 ## 🎨 Design & Aesthetic Highlights
 
+- **Multi-Page Architecture**: Individual dedicated HTML pages with standard browser forward/backward navigation and active link highlighting on both desktop and mobile drawers.
 - **Palette**: Deep navy & midnight black background (`#05070f`, `#090d1a`, `#0f172a`), accented by electric blue (`#38bdf8`), vibrant purple (`#8b5cf6`), and vivid rose pink (`#ec4899`).
 - **Typography**: Google Fonts pairing — **Space Grotesk** for modern display headings, **DM Sans** for legible body typography, and **JetBrains Mono** for clean code syntax.
 - **Glassmorphism**: Refined translucent glass containers with subtle 1px borders, smooth backdrop filters (`backdrop-filter: blur(...)`), and gentle neon glow shadows on hover.
@@ -16,10 +17,9 @@ Built strictly using **HTML5**, **CSS3**, and **Vanilla JavaScript (ES6+)** with
   - Interactive Java code card with one-click copy-to-clipboard functionality and confirmation feedback.
   - Animated student status badge.
   - Interactive project deep-dive modal dialogs with smooth transitions.
-  - Clean, beginner-friendly Technical Skills showcase with category filters.
+  - Category filtering for Technical Skills.
   - Client-side validated contact form with customized toast notification and mailto dispatch fallback.
-  - Active section navigation tracking via `IntersectionObserver`.
-  - Scroll-reveal animations on viewport entry.
+  - Smooth page-entry animations and back-to-top floating button.
 
 ---
 
@@ -28,14 +28,19 @@ Built strictly using **HTML5**, **CSS3**, and **Vanilla JavaScript (ES6+)** with
 ```
 abhishek-portfolio/
 │
-├── index.html                   # Semantic HTML5 single-page application structure
-├── README.md                    # Comprehensive documentation and customization guide
+├── index.html                   # Home page (Hero, Pitch, Showcase, Java Code Card)
+├── about.html                   # About Me page (Bio, Philosophy, 4 Engineering Pillars)
+├── skills.html                  # Technical Skills page (11 approved skills, category filter)
+├── education.html               # Education page (B.Tech CSE timeline, coursework tags)
+├── projects.html                # Featured Projects page (Lost & Found, DSA, modals)
+├── contact.html                 # Contact page (Email, LinkedIn, GitHub, X, validated form)
+├── README.md                    # Comprehensive multi-page documentation
 │
 ├── css/
 │   └── style.css                # Custom CSS design system, responsive media queries, variables
 │
 ├── js/
-│   └── script.js                # Vanilla JavaScript (modal, nav, observer, typewriter, form)
+│   └── script.js                # Vanilla JavaScript (modal, active nav, drawer, typewriter, form)
 │
 └── assets/
     ├── icons/                   # Clean vector SVGs
@@ -64,49 +69,45 @@ abhishek-portfolio/
 
 ---
 
-## 💻 Technical Skills
+## 📄 Pages Included
 
-The portfolio showcases **only** verified student competencies without inflated percentages or expert claims:
-
-- **Programming Languages**: C, C++, Java, Python
-- **Database**: MySQL
-- **Object-Oriented Programming**: OOP in Java, OOP in Python
-- **Data Structures & Algorithms**: DSA using Java
-- **Web Development**: HTML, CSS, JavaScript
-
----
-
-## 📬 Contact Details & Profiles
-
-- **Email**: [abhishekpoddar8409224011@gmail.com](mailto:abhishekpoddar8409224011@gmail.com)
-- **LinkedIn**: [https://www.linkedin.com/in/abhishek-kumar-2b60b3326](https://www.linkedin.com/in/abhishek-kumar-2b60b3326)
-- **GitHub**: [https://github.com/Abhi-Poddar1423](https://github.com/Abhi-Poddar1423)
-- **Twitter / X**: [https://x.com/AbhiPoddar1423](https://x.com/AbhiPoddar1423)
-
----
-
-## 🧩 Sections Included
-
-1. **Header & Navigation**: Fixed blurred navigation bar with brand logo, smooth scroll links, contact button, and accessible mobile hamburger drawer.
-2. **Hero**: Headline featuring **Abhishek Kumar**, dynamic typing role carousel, elevator pitch, CTA buttons, quick academic stats, and interactive Java code window.
-3. **About Abhishek Kumar**: Narrative bio detailing Abhishek Kumar's engineering approach and 4 core engineering pillars (Software Development, Java & OOP, DSA, Web & Databases).
-4. **Technical Skills**: Focused, beginner-friendly skill cards categorized into Programming Languages, Database, OOP, DSA, and Web Development with interactive filter tabs.
-5. **Education**: Interactive vertical timeline covering Bachelor of Technology in CSE and Higher Secondary schooling with relevant coursework tags.
-6. **Featured Projects**:
+1. **Home (`index.html`)**:
+   - Hero section with role badge, dynamic typewriter effect, elevator pitch, quick statistics, and interactive Java code window with copy button.
+   - Quick portfolio exploration cards linking directly to About, Skills, Projects, and Contact.
+2. **About Me (`about.html`)**:
+   - Comprehensive narrative bio detailing Abhishek Kumar's engineering mindset.
+   - Four Core Engineering Pillars (Software Engineering, Java & OOP Mastery, Data Structures & DSA, Web & Databases).
+   - Custom developer portrait visual (`assets/images/avatar.svg`).
+3. **Technical Skills (`skills.html`)**:
+   - Interactive category filter navigation (All, Programming Languages, Database, OOP, DSA, Web Development).
+   - Showcases **only** the 11 verified student competencies without inflated percentages or expert claims:
+     - **Programming Languages**: C, C++, Java, Python
+     - **Database**: MySQL
+     - **Object-Oriented Programming**: OOP in Java, OOP in Python
+     - **Data Structures & Algorithms**: DSA using Java
+     - **Web Development**: HTML, CSS, JavaScript
+4. **Education (`education.html`)**:
+   - Interactive vertical timeline covering Bachelor of Technology in CSE and Higher Secondary schooling with relevant coursework tags.
+5. **Featured Projects (`projects.html`)**:
    - **Smart Campus Lost & Found**: Java, Swing GUI, JDBC, MySQL relational database management system. Includes "Architecture Details" interactive modal.
    - **Java DSA Journey**: Pure Java data structures and algorithm implementations with time & space complexity analysis. Includes "Implementation Details" modal.
    - **Full-Stack Web App (In Development)**: Future project slot.
-7. **Contact**: Direct communication cards with professional icons for Email, LinkedIn, GitHub, and Twitter / X, plus a client-side validated contact form with feedback toast.
-8. **Footer**: Quick site navigation, copyright notice, social links, and smooth back-to-top floating button.
+6. **Contact (`contact.html`)**:
+   - Direct communication cards with professional icons:
+     - **Email**: [abhishekpoddar8409224011@gmail.com](mailto:abhishekpoddar8409224011@gmail.com)
+     - **LinkedIn**: [https://www.linkedin.com/in/abhishek-kumar-2b60b3326](https://www.linkedin.com/in/abhishek-kumar-2b60b3326)
+     - **GitHub**: [https://github.com/Abhi-Poddar1423](https://github.com/Abhi-Poddar1423)
+     - **Twitter / X**: [https://x.com/AbhiPoddar1423](https://x.com/AbhiPoddar1423)
+   - Interactive contact form with real-time client-side validation and toast notification.
 
 ---
 
-## 🚀 Running the Portfolio
+## 🚀 Running the Website
 
 Because this site is built purely with standard HTML5, CSS3, and JavaScript, **no build step, bundler, or Node.js server is required**.
 
 ### Option 1: Open directly in your browser
-Double-click `index.html` or right-click and choose **Open With > Google Chrome / Firefox / Microsoft Edge**.
+Double-click `index.html` or right-click and choose **Open With > Google Chrome / Firefox / Microsoft Edge**. You can click any navbar link to navigate between pages naturally.
 
 ### Option 2: Live Server in VS Code
 1. Open the `abhishek-portfolio` folder in VS Code.
@@ -127,4 +128,4 @@ Then visit `http://localhost:8000` in your web browser.
 - **Semantic Tags**: `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`.
 - **ARIA Attributes**: `aria-expanded`, `aria-controls`, `aria-label`, `role="dialog"`, `role="alert"`.
 - **Keyboard Navigation**: Drawer and modal dialogs close on `Escape`; all interactive controls are fully focusable.
-- **Zero Heavy Bundles**: No third-party JS libraries; fast load time and instant render.
+- **Zero Heavy Bundles**: No third-party JS libraries; fast load time and instant render across all pages.

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me | Abhishek Kumar | Software &amp; Java Developer</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Learn more about Abhishek Kumar, a Computer Science and Engineering student passionate about software development, Java programming, DSA, and modern web applications.">
+  <meta name="keywords" content="Abhishek Kumar, About, Software Developer, Java Developer, DSA, Computer Science">
+  <meta name="author" content="Abhishek Kumar">
+  <meta name="theme-color" content="#05070f">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="About Abhishek Kumar | Computer Science &amp; Engineering">
+  <meta property="og:description" content="Driven by logic, passionate about software engineering, clean code, and algorithmic problem solving.">
+  <meta property="og:image" content="assets/images/avatar.svg">
+
+  <!-- Google Fonts: Space Grotesk, DM Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ======================================================================
+       HEADER & NAVIGATION
+       ====================================================================== -->
+  <header class="header" id="siteHeader">
+    <div class="container header-container">
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-logo" aria-label="Abhishek Kumar - Home">
+        <span class="brand-code">&lt;</span>Abhishek Kumar<span class="brand-code">/&gt;</span>
+        <span class="brand-dot"></span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-desktop" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link active">About</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+        <a href="education.html" class="nav-link">Education</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Desktop CTA Action -->
+      <div class="nav-actions">
+        <a href="contact.html" class="btn btn-primary btn-sm">
+          <span>Get In Touch</span>
+          <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+
+        <!-- Mobile Hamburger Toggle Button -->
+        <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileDrawer">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <aside class="mobile-drawer" id="mobileDrawer" aria-label="Mobile Navigation Menu">
+    <div>
+      <div style="margin-bottom: 2rem;">
+        <span class="brand-logo">
+          <span class="brand-code">&lt;</span>Abhishek Kumar<span class="brand-code">/&gt;</span>
+          <span class="brand-dot"></span>
+        </span>
+        <p style="font-size: 0.85rem; margin-top: 0.5rem; color: var(--text-faint);">CSE Student &bull; Software Developer</p>
+      </div>
+
+      <nav class="mobile-nav-list">
+        <a href="index.html" class="mobile-nav-link"><span>01. Home</span> &rarr;</a>
+        <a href="about.html" class="mobile-nav-link active"><span>02. About Me</span> &rarr;</a>
+        <a href="skills.html" class="mobile-nav-link"><span>03. Technical Skills</span> &rarr;</a>
+        <a href="education.html" class="mobile-nav-link"><span>04. Education</span> &rarr;</a>
+        <a href="projects.html" class="mobile-nav-link"><span>05. Featured Projects</span> &rarr;</a>
+        <a href="contact.html" class="mobile-nav-link"><span>06. Contact</span> &rarr;</a>
+      </nav>
+    </div>
+
+    <div class="mobile-drawer-footer">
+      <a href="contact.html" class="btn btn-primary" style="width: 100%;">
+        <span>Let's Connect</span>
+      </a>
+      <div class="social-links-row" style="justify-content: center;">
+        <a href="https://github.com/Abhi-Poddar1423" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub Profile">
+          <img src="assets/icons/github.svg" alt="" width="18" height="18">
+        </a>
+        <a href="https://www.linkedin.com/in/abhishek-kumar-2b60b3326" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn Profile">
+          <img src="assets/icons/linkedin.svg" alt="" width="18" height="18">
+        </a>
+        <a href="https://x.com/AbhiPoddar1423" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Twitter / X Profile">
+          <img src="assets/icons/x.svg" alt="" width="18" height="18">
+        </a>
+        <a href="mailto:abhishekpoddar8409224011@gmail.com" class="social-icon-btn" aria-label="Email Abhishek Kumar">
+          <img src="assets/icons/mail.svg" alt="" width="18" height="18">
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ====================================================================
+         ABOUT ME CONTENT SECTION
+         ==================================================================== -->
+    <section class="section page-wrapper">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag purple">
+            <img src="assets/icons/sparkles.svg" alt="" width="14" height="14">
+            <span>Introduction</span>
+          </div>
+          <h1 class="section-title">About Abhishek Kumar</h1>
+          <p class="section-description">
+            Driven by logic, passionate about software engineering, clean code, and algorithmic problem solving.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left Column: Avatar Visual -->
+          <div class="about-visual reveal">
+            <div class="avatar-wrapper">
+              <img src="assets/images/avatar.svg" alt="Abhishek Kumar Developer Portrait" class="avatar-img" width="320" height="320">
+            </div>
+          </div>
+
+          <!-- Right Column: Bio & Core Pillars -->
+          <div class="about-content reveal reveal-delay-1">
+            <p class="about-bio">
+              Hello! I'm <strong>Abhishek Kumar</strong>, an enthusiastic Computer Science and Engineering student with an insatiable curiosity for how complex computer systems and software architectures operate behind the screen.
+            </p>
+            <p class="about-bio">
+              My engineering philosophy revolves around <strong>clarity, efficiency, and robustness</strong>. Whether I am architecting object-oriented Java desktop applications with database connectivity, deconstructing complex algorithmic puzzles on LeetCode, or building fast and responsive web user interfaces, I pride myself on writing clean, well-documented code.
+            </p>
+
+            <!-- 4 Core Pillars Grid -->
+            <div class="pillars-grid">
+              <div class="pillar-card">
+                <div class="pillar-icon-box blue">
+                  <img src="assets/icons/code.svg" alt="" width="20" height="20">
+                </div>
+                <h2 class="pillar-title">Software Engineering</h2>
+                <p class="pillar-desc">Designing reliable, scalable software with structured architecture and testable modular code.</p>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon-box purple">
+                  <img src="assets/icons/terminal.svg" alt="" width="20" height="20">
+                </div>
+                <h2 class="pillar-title">Java &amp; OOP Mastery</h2>
+                <p class="pillar-desc">Deep grasp of inheritance, polymorphism, encapsulation, collections framework, and JDBC.</p>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon-box pink">
+                  <img src="assets/icons/cpu.svg" alt="" width="20" height="20">
+                </div>
+                <h2 class="pillar-title">Data Structures &amp; DSA</h2>
+                <p class="pillar-desc">Analytical approach to problem-solving, algorithmic efficiency, and Big-O time-space optimization.</p>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon-box blue">
+                  <img src="assets/icons/database.svg" alt="" width="20" height="20">
+                </div>
+                <h2 class="pillar-title">Web &amp; Databases</h2>
+                <p class="pillar-desc">Crafting modern, accessible web experiences paired with relational SQL schema design.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Multi-page Navigation Call to Action -->
+        <div class="page-cta-strip reveal">
+          <a href="skills.html" class="btn btn-primary">
+            <span>Explore Technical Skills</span>
+            <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <a href="education.html" class="btn btn-secondary">
+            <span>Academic Background</span>
+          </a>
+          <a href="projects.html" class="btn btn-secondary">
+            <span>Featured Projects</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================================================================
+       FOOTER
+       ====================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" aria-label="Abhishek Kumar Home">
+            <span class="brand-code">&lt;</span>Abhishek Kumar<span class="brand-code">/&gt;</span>
+            <span class="brand-dot"></span>
+          </a>
+          <p class="footer-tagline">
+            Computer Science &amp; Engineering undergraduate dedicated to building robust software, mastering algorithms, and exploring full-stack engineering.
+          </p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer Navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="skills.html">Skills</a>
+          <a href="education.html">Education</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Abhishek Kumar. Crafted with HTML5, CSS3 &amp; Vanilla JavaScript.
+        </div>
+
+        <div class="social-links-row">
+          <a href="https://github.com/Abhi-Poddar1423" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub Profile">
+            <img src="assets/icons/github.svg" alt="" width="16" height="16">
+          </a>
+          <a href="https://www.linkedin.com/in/abhishek-kumar-2b60b3326" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn Profile">
+            <img src="assets/icons/linkedin.svg" alt="" width="16" height="16">
+          </a>
+          <a href="https://x.com/AbhiPoddar1423" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Twitter / X Profile">
+            <img src="assets/icons/x.svg" alt="" width="16" height="16">
+          </a>
+          <a href="mailto:abhishekpoddar8409224011@gmail.com" class="social-icon-btn" aria-label="Email Abhishek Kumar">
+            <img src="assets/icons/mail.svg" alt="" width="16" height="16">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ======================================================================
+       BACK TO TOP FLOATING BUTTON
+       ====================================================================== -->
+  <button class="back-to-top" id="backToTopBtn" aria-label="Scroll back to top of page" title="Back to top">
+    <img src="assets/icons/arrow-up.svg" alt="" width="20" height="20">
+  </button>
+
+  <!-- Scripts -->
+  <script src="js/script.js"></script>
+</body>
+</html>

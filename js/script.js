@@ -75,41 +75,27 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // ==========================================================================
-  // 2. Active Navigation Highlight on Scroll (IntersectionObserver)
+  // 2. Multi-Page Active Navigation Highlighting
   // ==========================================================================
-  const sections = document.querySelectorAll('section[id]');
-  
-  const navObserverOptions = {
-    root: null,
-    rootMargin: '-20% 0px -70% 0px',
-    threshold: 0
-  };
+  const currentPath = window.location.pathname.split('/').pop() || 'index.html';
 
-  const navObserver = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        const id = entry.target.getAttribute('id');
-        
-        navLinks.forEach((link) => {
-          if (link.getAttribute('href') === `#${id}`) {
-            link.classList.add('active');
-          } else {
-            link.classList.remove('active');
-          }
-        });
+  navLinks.forEach((link) => {
+    const linkHref = link.getAttribute('href');
+    if (linkHref === currentPath || (currentPath === '' && linkHref === 'index.html')) {
+      link.classList.add('active');
+    } else {
+      link.classList.remove('active');
+    }
+  });
 
-        mobileNavLinks.forEach((link) => {
-          if (link.getAttribute('href') === `#${id}`) {
-            link.classList.add('active');
-          } else {
-            link.classList.remove('active');
-          }
-        });
-      }
-    });
-  }, navObserverOptions);
-
-  sections.forEach((section) => navObserver.observe(section));
+  mobileNavLinks.forEach((link) => {
+    const linkHref = link.getAttribute('href');
+    if (linkHref === currentPath || (currentPath === '' && linkHref === 'index.html')) {
+      link.classList.add('active');
+    } else {
+      link.classList.remove('active');
+    }
+  });
 
   // ==========================================================================
   // 3. Scroll Reveal Animations (IntersectionObserver)

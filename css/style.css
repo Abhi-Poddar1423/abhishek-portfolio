@@ -202,6 +202,24 @@ button, input, textarea {
   position: relative;
 }
 
+/* Multi-Page Common Section Wrapper */
+.page-wrapper {
+  padding-top: calc(var(--header-height) + 3.25rem);
+  padding-bottom: 6rem;
+  min-height: calc(100vh - var(--header-height) - 160px);
+  position: relative;
+}
+
+.page-cta-strip {
+  margin-top: 4rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
 .section-header {
   text-align: center;
   max-width: 720px;
