@@ -1064,47 +1064,58 @@ button, input, textarea {
   color: #ffffff;
 }
 
-.skill-items-list {
+.skill-items-clean {
   display: flex;
   flex-direction: column;
-  gap: 1.15rem;
+  gap: 0.75rem;
 }
 
-.skill-item {
+.skill-clean-item {
   display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-}
-
-.skill-info {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  gap: 0.85rem;
+  padding: 0.75rem 1rem;
+  background: rgba(15, 23, 42, 0.55);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-fast);
+}
+
+.skill-clean-item:hover {
+  background: rgba(20, 29, 54, 0.8);
+  border-color: var(--border-accent);
+  transform: translateX(4px);
+}
+
+.skill-bullet-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--electric-blue);
+  box-shadow: 0 0 8px var(--electric-blue);
+  flex-shrink: 0;
+}
+
+.skill-bullet-dot.purple {
+  background: var(--vibrant-purple);
+  box-shadow: 0 0 8px var(--vibrant-purple);
+}
+
+.skill-bullet-dot.pink {
+  background: var(--vivid-pink);
+  box-shadow: 0 0 8px var(--vivid-pink);
+}
+
+.skill-bullet-dot.emerald {
+  background: var(--emerald-green);
+  box-shadow: 0 0 8px var(--emerald-green);
+}
+
+.skill-clean-name {
   font-family: var(--font-heading);
   font-size: 0.95rem;
   font-weight: 600;
   color: #ffffff;
-}
-
-.skill-level-tag {
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  font-weight: 500;
-}
-
-.skill-bar-bg {
-  width: 100%;
-  height: 6px;
-  background: rgba(255, 255, 255, 0.08);
-  border-radius: var(--radius-full);
-  overflow: hidden;
-}
-
-.skill-bar-progress {
-  height: 100%;
-  border-radius: var(--radius-full);
-  background: var(--grad-primary);
-  transition: width 1.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 /* --------------------------------------------------------------------------

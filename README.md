@@ -1,6 +1,6 @@
 # Abhishek — Developer Portfolio Website
 
-A complete, high-performance, responsive developer portfolio website designed for **Abhishek**, a Computer Science and Engineering student specializing in **Software Development**, **Java Programming**, **Data Structures & Algorithms (DSA)**, and **Web Development**.
+A complete, high-performance, responsive developer portfolio website designed for **Abhishek**, a Computer Science and Engineering student focused on **Software Development**, **Java Programming**, **Data Structures & Algorithms (DSA)**, and **Web Development**.
 
 Built strictly using **HTML5**, **CSS3**, and **Vanilla JavaScript (ES6+)** with zero third-party frameworks or dependencies (no React, Bootstrap, or Tailwind).
 
@@ -14,11 +14,11 @@ Built strictly using **HTML5**, **CSS3**, and **Vanilla JavaScript (ES6+)** with
 - **Micro-Interactions**:
   - Live typewriter role carousel in the Hero section.
   - Interactive Java code card with one-click copy-to-clipboard functionality and confirmation feedback.
-  - Animated availability indicator pulse.
+  - Animated student status badge.
   - Interactive project deep-dive modal dialogs with smooth transitions.
-  - Category filtering for Technical Skills.
+  - Clean, beginner-friendly Technical Skills showcase with category filters.
   - Interactive GitHub activity matrix layout preview.
-  - Form validation with customized toast notification and mailto dispatch fallback.
+  - Client-side validated contact form with customized toast notification and mailto dispatch fallback.
   - Active section navigation tracking via `IntersectionObserver`.
   - Scroll-reveal animations on viewport entry.
 
@@ -64,12 +64,24 @@ abhishek-portfolio/
 
 ---
 
+## 💻 Technical Skills
+
+The portfolio showcases **only** verified student competencies without inflated percentages or expert claims:
+
+- **Programming Languages**: C, C++, Java, Python
+- **Database**: MySQL
+- **Object-Oriented Programming**: OOP in Java, OOP in Python
+- **Data Structures & Algorithms**: DSA using Java
+- **Web Development**: HTML, CSS, JavaScript
+
+---
+
 ## 🧩 Sections Included
 
 1. **Header & Navigation**: Fixed blurred navigation bar with brand logo, smooth scroll links, contact button, and accessible mobile hamburger drawer.
-2. **Hero**: Headline, dynamic typing role carousel, elevator pitch, CTA buttons, quick stats, and interactive Java code window.
+2. **Hero**: Headline, dynamic typing role carousel, elevator pitch, CTA buttons, quick academic stats, and interactive Java code window.
 3. **About Me**: Narrative bio detailing Abhishek's engineering approach and 4 core engineering pillars (Software Development, Java & OOP, DSA, Web & Databases).
-4. **Technical Skills**: Categorized skills (Languages, Core CS, Web Development, Tools & Databases) with animated proficiency indicators and interactive category filter tabs.
+4. **Technical Skills**: Focused, beginner-friendly skill cards categorized into Programming Languages, Database, OOP, DSA, and Web Development with interactive filter tabs.
 5. **Education**: Interactive vertical timeline covering Bachelor of Technology in CSE and Higher Secondary schooling with relevant coursework tags.
 6. **Featured Projects**:
    - **Smart Campus Lost & Found**: Java, Swing GUI, JDBC, MySQL relational database management system. Includes "Architecture Details" interactive modal.
