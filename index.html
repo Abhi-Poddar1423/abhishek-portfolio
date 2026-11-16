@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhishek | Computer Science &amp; Engineering Portfolio | Software &amp; Java Developer</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Portfolio of Abhishek, a Computer Science and Engineering student specializing in Software Development, Java programming, Data Structures &amp; Algorithms (DSA), and Modern Web Development.">
+  <meta name="keywords" content="Abhishek, Software Developer, Java Developer, DSA, Data Structures and Algorithms, Computer Science, Web Development, Portfolio">
+  <meta name="author" content="Abhishek">
+  <meta name="theme-color" content="#05070f">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Abhishek | Computer Science &amp; Engineering Portfolio">
+  <meta property="og:description" content="Computer Science &amp; Engineering student passionate about Java, DSA, software development, and modern web applications.">
+  <meta property="og:image" content="assets/images/avatar.svg">
+
+  <!-- Google Fonts: Space Grotesk, DM Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ======================================================================
+       HEADER & NAVIGATION
+       ====================================================================== -->
+  <header class="header" id="siteHeader">
+    <div class="container header-container">
+      <!-- Brand Logo -->
+      <a href="#home" class="brand-logo" aria-label="Abhishek - Home">
+        <span class="brand-code">&lt;</span>Abhishek<span class="brand-code">/&gt;</span>
+        <span class="brand-dot"></span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-desktop" aria-label="Main Navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#github" class="nav-link">GitHub</a>
+        <a href="#achievements" class="nav-link">Achievements</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Desktop CTA Action -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary btn-sm">
+          <span>Get In Touch</span>
+          <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+
+        <!-- Mobile Hamburger Toggle Button -->
+        <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileDrawer">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <aside class="mobile-drawer" id="mobileDrawer" aria-label="Mobile Navigation Menu">
+    <div>
+      <div style="margin-bottom: 2rem;">
+        <span class="brand-logo">
+          <span class="brand-code">&lt;</span>Abhishek<span class="brand-code">/&gt;</span>
+          <span class="brand-dot"></span>
+        </span>
+        <p style="font-size: 0.85rem; margin-top: 0.5rem; color: var(--text-faint);">CSE Student &bull; Software Developer</p>
+      </div>
+
+      <nav class="mobile-nav-list">
+        <a href="#home" class="mobile-nav-link active"><span>01. Home</span> &rarr;</a>
+        <a href="#about" class="mobile-nav-link"><span>02. About Me</span> &rarr;</a>
+        <a href="#skills" class="mobile-nav-link"><span>03. Technical Skills</span> &rarr;</a>
+        <a href="#education" class="mobile-nav-link"><span>04. Education</span> &rarr;</a>
+        <a href="#projects" class="mobile-nav-link"><span>05. Featured Projects</span> &rarr;</a>
+        <a href="#github" class="mobile-nav-link"><span>06. GitHub Activity</span> &rarr;</a>
+        <a href="#achievements" class="mobile-nav-link"><span>07. Achievements</span> &rarr;</a>
+        <a href="#contact" class="mobile-nav-link"><span>08. Contact</span> &rarr;</a>
+      </nav>
+    </div>
+
+    <div class="mobile-drawer-footer">
+      <a href="#contact" class="btn btn-primary" style="width: 100%;">
+        <span>Let's Connect</span>
+      </a>
+      <div class="social-links-row" style="justify-content: center;">
+        <a href="https://github.com/[your-github-username]" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub Profile">
+          <img src="assets/icons/github.svg" alt="" width="18" height="18">
+        </a>
+        <a href="https://linkedin.com/in/[your-linkedin-username]" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn Profile">
+          <img src="assets/icons/linkedin.svg" alt="" width="18" height="18">
+        </a>
+        <a href="mailto:abhishekgoyat458@gmail.com" class="social-icon-btn" aria-label="Email Abhishek">
+          <img src="assets/icons/mail.svg" alt="" width="18" height="18">
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ====================================================================
+         1. HERO SECTION
+         ==================================================================== -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Left Column: Hero Text Content -->
+          <div class="hero-content reveal">
+            <!-- Availability Badge -->
+            <div class="status-badge">
+              <span class="pulse-dot"></span>
+              <span>Available for Software Engineering Internships</span>
+            </div>
+
+            <!-- Main Headline -->
+            <h1 class="hero-title">
+              Hi, I'm <span class="gradient-text">Abhishek</span>
+            </h1>
+
+            <!-- Dynamic Animated Typing Text -->
+            <div class="hero-typewriter">
+              <span class="typed-text"></span>
+              <span class="cursor">|</span>
+            </div>
+
+            <!-- Pitch Description -->
+            <p class="hero-description">
+              A passionate Computer Science &amp; Engineering student dedicated to writing clean, maintainable code. Specializing in <strong>Java development</strong>, core <strong>Data Structures &amp; Algorithms</strong>, and engineering responsive <strong>web applications</strong>.
+            </p>
+
+            <!-- Action Buttons -->
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                <span>View Featured Projects</span>
+                <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+
+              <a href="#contact" class="btn btn-secondary">
+                <span>Connect With Me</span>
+              </a>
+
+              <a href="#education" class="btn btn-secondary">
+                <span>Explore Background</span>
+              </a>
+            </div>
+
+            <!-- Hero Highlights / Quick Stats -->
+            <div class="hero-stats">
+              <div class="hero-stat-item">
+                <span class="hero-stat-value">B.Tech CSE</span>
+                <span class="hero-stat-label">Academic Path</span>
+              </div>
+              <div class="hero-stat-item">
+                <span class="hero-stat-value">Java &amp; DSA</span>
+                <span class="hero-stat-label">Core Specialization</span>
+              </div>
+              <div class="hero-stat-item">
+                <span class="hero-stat-value">Web &amp; Systems</span>
+                <span class="hero-stat-label">Technical Interest</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Code Card Visual -->
+          <div class="hero-visual reveal reveal-delay-1">
+            <!-- Floating Tech Badges -->
+            <div class="floating-badge badge-1">
+              <div class="badge-icon">☕</div>
+              <div class="badge-text">Java OOP &amp; JDBC</div>
+            </div>
+
+            <div class="floating-badge badge-2">
+              <div class="badge-icon">⚡</div>
+              <div class="badge-text">Algorithm Solver</div>
+            </div>
+
+            <!-- Glass Code Window -->
+            <div class="code-window">
+              <div class="code-window-header">
+                <div class="window-dots">
+                  <span class="dot red"></span>
+                  <span class="dot yellow"></span>
+                  <span class="dot green"></span>
+                </div>
+                <div class="window-title">Developer.java</div>
+                <button class="copy-btn" id="copyCodeBtn" aria-label="Copy Java Code to clipboard" title="Copy snippet">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="code-content">
+                <pre id="heroJavaCode"><code><span class="token-keyword">public class</span> <span class="token-class">Developer</span> {
+  <span class="token-type">String</span> <span class="token-var">name</span> = <span class="token-string">"Abhishek"</span>;
+  <span class="token-type">String</span> <span class="token-var">major</span> = <span class="token-string">"Computer Science & Eng"</span>;
+  <span class="token-type">String</span>[] <span class="token-var">focus</span> = {
+    <span class="token-string">"Software Development"</span>,
+    <span class="token-string">"Java & OOP Architecture"</span>,
+    <span class="token-string">"Data Structures & Algorithms"</span>,
+    <span class="token-string">"Full-Stack Web Technologies"</span>
+  };
+
+  <span class="token-keyword">public void</span> <span class="token-method">buildFuture</span>() {
+    <span class="token-comment">// Relentless learning & clean code</span>
+    <span class="token-keyword">while</span> (<span class="token-keyword">true</span>) {
+      solveDSAProblem();
+      buildRobustSoftware();
+      levelUpSkills();
+    }
+  }
+}</code></pre>
+              </div>
+
+              <div class="code-window-footer">
+                <div class="status-indicator">
+                  <span class="status-dot-sm"></span>
+                  <span>Compiled Successfully (JDK 17)</span>
+                </div>
+                <span>UTF-8</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         2. ABOUT ME SECTION
+         ==================================================================== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag purple">
+            <img src="assets/icons/sparkles.svg" alt="" width="14" height="14">
+            <span>Introduction</span>
+          </div>
+          <h2 class="section-title">Driven by Logic, Passionate About Engineering</h2>
+          <p class="section-description">
+            A comprehensive look into my academic journey, problem-solving mindset, and software philosophy.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left Column: Avatar & Visual -->
+          <div class="about-visual reveal">
+            <div class="avatar-wrapper">
+              <img src="assets/images/avatar.svg" alt="Abhishek Developer Portrait" class="avatar-img" width="320" height="320">
+            </div>
+          </div>
+
+          <!-- Right Column: Bio & Core Pillars -->
+          <div class="about-content reveal reveal-delay-1">
+            <p class="about-bio">
+              Hello! I'm <strong>Abhishek</strong>, an enthusiastic Computer Science and Engineering student with an insatiable curiosity for how complex computer systems and software architectures operate behind the screen.
+            </p>
+            <p class="about-bio">
+              My engineering philosophy revolves around <strong>clarity, efficiency, and robustness</strong>. Whether I am architecting object-oriented Java desktop applications with database connectivity, deconstructing complex algorithmic puzzles on LeetCode, or building fast and responsive web user interfaces, I pride myself on writing clean, well-documented code.
+            </p>
+
+            <!-- 4 Core Pillars Grid -->
+            <div class="pillars-grid">
+              <div class="pillar-card">
+                <div class="pillar-icon-box blue">
+                  <img src="assets/icons/code.svg" alt="" width="20" height="20">
+                </div>
+                <h3 class="pillar-title">Software Engineering</h3>
+                <p class="pillar-desc">Designing reliable, scalable software with structured architecture and testable modular code.</p>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon-box purple">
+                  <img src="assets/icons/terminal.svg" alt="" width="20" height="20">
+                </div>
+                <h3 class="pillar-title">Java &amp; OOP Mastery</h3>
+                <p class="pillar-desc">Deep grasp of inheritance, polymorphism, encapsulation, collections framework, and JDBC.</p>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon-box pink">
+                  <img src="assets/icons/cpu.svg" alt="" width="20" height="20">
+                </div>
+                <h3 class="pillar-title">Data Structures &amp; DSA</h3>
+                <p class="pillar-desc">Analytical approach to problem-solving, algorithmic efficiency, and Big-O time-space optimization.</p>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon-box blue">
+                  <img src="assets/icons/database.svg" alt="" width="20" height="20">
+                </div>
+                <h3 class="pillar-title">Web &amp; Databases</h3>
+                <p class="pillar-desc">Crafting modern, accessible web experiences paired with relational SQL schema design.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         3. TECHNICAL SKILLS SECTION
+         ==================================================================== -->
+    <section class="section" id="skills" style="background: rgba(9, 13, 26, 0.4);">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">
+            <img src="assets/icons/code.svg" alt="" width="14" height="14">
+            <span>Core Competencies</span>
+          </div>
+          <h2 class="section-title">Technical Skills &amp; Proficiencies</h2>
+          <p class="section-description">
+            A structured breakdown of my programming languages, computer science foundations, web technologies, and developer tooling.
+          </p>
+        </div>
+
+        <!-- Category Filter Buttons -->
+        <div class="skills-filter-nav reveal">
+          <button class="filter-btn active" data-filter="all">All Skills</button>
+          <button class="filter-btn" data-filter="languages">Programming Languages</button>
+          <button class="filter-btn" data-filter="core-cs">Core Computer Science</button>
+          <button class="filter-btn" data-filter="web">Web Development</button>
+          <button class="filter-btn" data-filter="tools">Tools &amp; Databases</button>
+        </div>
+
+        <!-- Skills Grid Cards -->
+        <div class="skills-grid">
+          <!-- Card 1: Programming Languages -->
+          <div class="skill-category-card reveal" data-category="languages">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon purple">
+                <img src="assets/icons/terminal.svg" alt="" width="22" height="22">
+              </div>
+              <h3 class="skill-cat-title">Programming Languages</h3>
+            </div>
+            <div class="skill-items-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Java (Core &amp; Advanced)</span>
+                  <span class="skill-level-tag">Advanced / Primary</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-progress" style="width: 90%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>C / C++</span>
+                  <span class="skill-level-tag">Academic Foundations</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-progress" style="width: 78%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>SQL (Structured Query Lang)</span>
+                  <span class="skill-level-tag">Proficient</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-progress" style="width: 82%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>JavaScript (ES6+)</span>
+                  <span class="skill-level-tag">Intermediate</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-progress" style="width: 80%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Core Computer Science Foundations -->
+          <div class="skill-category-card reveal reveal-delay-1" data-category="core-cs">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon blue">
+                <img src="assets/icons/cpu.svg" alt="" width="22" height="22">
+              </div>
+              <h3 class="skill-cat-title">Core Computer Science</h3>
+            </div>
+            <div class="skill-items-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Data Structures &amp; Algorithms</span>
+                  <span class="skill-level-tag">High Focus</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-progress" style="width: 88%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Object-Oriented Programming (OOP)</span>
+                  <span class="skill-level-tag">Advanced</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-progress" style="width: 92%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Database Management (DBMS)</span>
+                  <span class="skill-level-tag">Relational Models</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-progress" style="width: 84%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Operating Systems &amp; Networks</span>
+                  <span class="skill-level-tag">Core Concepts</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-progress" style="width: 78%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Web Development -->
+          <div class="skill-category-card reveal reveal-delay-2" data-category="web">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon pink">
+                <img src="assets/icons/code.svg" alt="" width="22" height="22">
+              </div>
+              <h3 class="skill-cat-title">Web Development</h3>
+            </div>
+            <div class="skill-items-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>HTML5 (Semantic &amp; Accessible)</span>
+                  <span class="skill-level-tag">Proficient</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-progress" style="width: 90%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>CSS3 (Flexbox, Grid, Animations)</span>
+                  <span class="skill-level-tag">Proficient</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-progress" style="width: 86%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>DOM Manipulation &amp; Events</span>
+                  <span class="skill-level-tag">Intermediate</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-progress" style="width: 82%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>REST APIs &amp; Async Fetch</span>
+                  <span class="skill-level-tag">Working Knowledge</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-progress" style="width: 76%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4: Tools & Platforms -->
+          <div class="skill-category-card reveal reveal-delay-3" data-category="tools">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon purple">
+                <img src="assets/icons/database.svg" alt="" width="22" height="22">
+              </div>
+              <h3 class="skill-cat-title">Tools &amp; Environments</h3>
+            </div>
+            <div class="skill-items-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Git Version Control &amp; GitHub</span>
+                  <span class="skill-level-tag">Daily Driver</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-progress" style="width: 88%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>MySQL Database Server</span>
+                  <span class="skill-level-tag">Proficient</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-progress" style="width: 84%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>IntelliJ IDEA &amp; VS Code</span>
+                  <span class="skill-level-tag">Development IDEs</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-progress" style="width: 90%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Command Line &amp; PowerShell / Bash</span>
+                  <span class="skill-level-tag">Intermediate</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-progress" style="width: 80%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         4. EDUCATION SECTION
+         ==================================================================== -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag pink">
+            <img src="assets/icons/book.svg" alt="" width="14" height="14">
+            <span>Academic Background</span>
+          </div>
+          <h2 class="section-title">Education &amp; Foundations</h2>
+          <p class="section-description">
+            Building rigorous mathematical, algorithmic, and engineering principles through university computer science coursework.
+          </p>
+        </div>
+
+        <div class="education-container">
+          <div class="timeline">
+            <!-- Timeline Item: Undergraduate CSE Degree -->
+            <div class="timeline-item reveal">
+              <div class="timeline-marker"></div>
+              <div class="education-card">
+                <div class="edu-header-row">
+                  <h3 class="edu-degree">Bachelor of Technology / B.E. in Computer Science &amp; Engineering</h3>
+                  <span class="edu-period">[202X – 202X]</span>
+                </div>
+
+                <div class="edu-institution">
+                  [Your College / University Name, e.g., Department of Computer Science &amp; Engineering]
+                </div>
+
+                <p class="edu-details">
+                  Undergraduate degree centered on computing fundamentals, software systems design, discrete structures, and advanced programming paradigms. Continuously applying classroom theory to practical software projects and algorithm practice.
+                </p>
+
+                <div class="coursework-title">Relevant Academic Coursework:</div>
+                <div class="course-tags">
+                  <span class="course-tag">Data Structures &amp; Algorithms</span>
+                  <span class="course-tag">Object-Oriented Programming (Java)</span>
+                  <span class="course-tag">Database Management Systems</span>
+                  <span class="course-tag">Operating Systems</span>
+                  <span class="course-tag">Computer System Architecture</span>
+                  <span class="course-tag">Computer Networks</span>
+                  <span class="course-tag">Software Engineering Principles</span>
+                  <span class="course-tag">Design &amp; Analysis of Algorithms</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Timeline Item: Higher Secondary Schooling -->
+            <div class="timeline-item reveal reveal-delay-1">
+              <div class="timeline-marker"></div>
+              <div class="education-card">
+                <div class="edu-header-row">
+                  <h3 class="edu-degree">Higher Secondary Education (Class XII - Science / Non-Medical)</h3>
+                  <span class="edu-period">[202X – 202X]</span>
+                </div>
+
+                <div class="edu-institution">
+                  [Your School / Junior College Name, Board of Education]
+                </div>
+
+                <p class="edu-details">
+                  Focused on Mathematics, Physics, Chemistry, and Computer Science, establishing strong analytical thinking, logic building, and problem-solving skills.
+                </p>
+
+                <div class="coursework-title">Core Disciplines:</div>
+                <div class="course-tags">
+                  <span class="course-tag">Advanced Mathematics</span>
+                  <span class="course-tag">Physics</span>
+                  <span class="course-tag">Computer Fundamentals</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         5. FEATURED PROJECTS SECTION
+         ==================================================================== -->
+    <section class="section" id="projects" style="background: rgba(9, 13, 26, 0.4);">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag purple">
+            <img src="assets/icons/code.svg" alt="" width="14" height="14">
+            <span>Portfolio Showcase</span>
+          </div>
+          <h2 class="section-title">Featured Software Projects</h2>
+          <p class="section-description">
+            Hands-on applications demonstrating core Java capabilities, database integrations, data structures, and software architecture.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Smart Campus Lost & Found System -->
+          <article class="project-card reveal">
+            <div class="project-media">
+              <img src="assets/images/project-lost-found.svg" alt="Smart Campus Lost &amp; Found GUI Project Preview" width="600" height="350" loading="lazy">
+              <div class="project-badge-overlay">Desktop Java App</div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Smart Campus Lost &amp; Found</h3>
+              <p class="project-summary">
+                A desktop application engineered for university campuses to streamline logging, searching, claiming, and auditing misplaced belongings across university facilities.
+              </p>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag blue">Java</span>
+                <span class="tech-tag purple">Swing GUI</span>
+                <span class="tech-tag">JDBC</span>
+                <span class="tech-tag pink">MySQL</span>
+                <span class="tech-tag">OOP Architecture</span>
+              </div>
+
+              <div class="project-links">
+                <button class="project-link-btn open-modal-btn" data-project="lostfound">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="16" x2="12" y2="12"></line>
+                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                  </svg>
+                  <span>Architecture Details</span>
+                </button>
+
+                <a href="https://github.com/[your-github-username]/smart-campus-lost-found" target="_blank" rel="noopener noreferrer" class="project-link-btn" title="View Source on GitHub">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                  <span>Repository</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Java DSA Journey & Algorithms -->
+          <article class="project-card reveal reveal-delay-1">
+            <div class="project-media">
+              <img src="assets/images/project-dsa.svg" alt="Java Data Structures &amp; Algorithms Project Preview" width="600" height="350" loading="lazy">
+              <div class="project-badge-overlay">Algorithmic Codebase</div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Java DSA Journey &amp; Solutions</h3>
+              <p class="project-summary">
+                A structured repository containing fundamental and advanced data structures implemented from scratch in pure Java, alongside optimized solutions to standard algorithmic problems.
+              </p>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag blue">Java 17+</span>
+                <span class="tech-tag purple">Data Structures</span>
+                <span class="tech-tag pink">Algorithms</span>
+                <span class="tech-tag">Time &amp; Space Complexity</span>
+              </div>
+
+              <div class="project-links">
+                <button class="project-link-btn open-modal-btn" data-project="dsa">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="16" x2="12" y2="12"></line>
+                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                  </svg>
+                  <span>Implementation Details</span>
+                </button>
+
+                <a href="https://github.com/[your-github-username]/java-dsa-journey" target="_blank" rel="noopener noreferrer" class="project-link-btn" title="View Source on GitHub">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                  <span>Repository</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Next Full-Stack Project Slot -->
+          <article class="project-card reveal reveal-delay-2">
+            <div class="project-media">
+              <img src="assets/images/project-placeholder.svg" alt="Upcoming Web Application Project Preview" width="600" height="350" loading="lazy">
+              <div class="project-badge-overlay">In Development</div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">[Upcoming Project: Full-Stack Web App]</h3>
+              <p class="project-summary">
+                Currently architecting a modern full-stack web application integrating responsive front-end user experience with a scalable Java or REST backend and relational persistence.
+              </p>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag blue">HTML5 / CSS3</span>
+                <span class="tech-tag purple">Vanilla JavaScript</span>
+                <span class="tech-tag pink">RESTful APIs</span>
+                <span class="tech-tag">MySQL</span>
+              </div>
+
+              <div class="project-links">
+                <span style="font-size: 0.85rem; color: var(--text-faint); font-family: var(--font-mono);">
+                  🚀 Active Development
+                </span>
+                <a href="https://github.com/[your-github-username]" target="_blank" rel="noopener noreferrer" class="project-link-btn" style="margin-left: auto;">
+                  <span>Follow on GitHub &rarr;</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         6. GITHUB ACTIVITY SECTION
+         ==================================================================== -->
+    <section class="section" id="github">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">
+            <img src="assets/icons/github.svg" alt="" width="14" height="14">
+            <span>Open Source &amp; Code</span>
+          </div>
+          <h2 class="section-title">GitHub Profile &amp; Coding Activity</h2>
+          <p class="section-description">
+            Commit history, problem-solving repositories, and open source explorations.
+          </p>
+        </div>
+
+        <!-- GitHub Overview Glass Card -->
+        <div class="github-overview-card reveal">
+          <!-- Profile Header -->
+          <div class="github-profile-header">
+            <div class="github-user-info">
+              <div class="github-avatar-ph">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+              </div>
+              <div>
+                <h3 class="github-user-name">Abhishek</h3>
+                <div class="github-handle">github.com/[your-github-username]</div>
+              </div>
+            </div>
+
+            <!-- Direct Link Button -->
+            <a href="https://github.com/[your-github-username]" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+              <img src="assets/icons/external-link.svg" alt="" width="16" height="16">
+              <span>Visit Live GitHub Profile</span>
+            </a>
+          </div>
+
+          <!-- Real-Time Placeholders Stats Grid -->
+          <div class="github-stats-grid">
+            <div class="github-stat-box">
+              <span class="gh-stat-number">[X+]</span>
+              <span class="gh-stat-label">Public Repositories</span>
+            </div>
+
+            <div class="github-stat-box">
+              <span class="gh-stat-number">Java &bull; JS</span>
+              <span class="gh-stat-label">Primary Languages</span>
+            </div>
+
+            <div class="github-stat-box">
+              <span class="gh-stat-number">[Active]</span>
+              <span class="gh-stat-label">DSA &amp; Project Commits</span>
+            </div>
+
+            <div class="github-stat-box">
+              <span class="gh-stat-number">2026</span>
+              <span class="gh-stat-label">Active Contribution Year</span>
+            </div>
+          </div>
+
+          <!-- Simulated Contribution Grid Visual Layout -->
+          <div class="activity-matrix-container">
+            <div class="matrix-header">
+              <span class="matrix-title">Contribution Matrix Overview (Visual Layout Preview)</span>
+              <div class="matrix-legend">
+                <span>Less</span>
+                <span class="legend-cell cell-0"></span>
+                <span class="legend-cell cell-1"></span>
+                <span class="legend-cell cell-2"></span>
+                <span class="legend-cell cell-3"></span>
+                <span class="legend-cell cell-4"></span>
+                <span>More</span>
+              </div>
+            </div>
+
+            <div class="matrix-grid" id="matrixGrid">
+              <!-- Dynamically populated via script.js for clean representation -->
+            </div>
+          </div>
+
+          <div class="github-disclaimer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="16" x2="12" y2="12"></line>
+              <line x1="12" y1="8" x2="12.01" y2="8"></line>
+            </svg>
+            <span>Note: Statistics and activity matrices represent template layout placeholders. Visit Abhishek's live profile to view verified real-time commits, pull requests, and repositories.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         7. ACHIEVEMENTS & CERTIFICATIONS SECTION
+         ==================================================================== -->
+    <section class="section" id="achievements" style="background: rgba(9, 13, 26, 0.4);">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag pink">
+            <img src="assets/icons/award.svg" alt="" width="14" height="14">
+            <span>Milestones</span>
+          </div>
+          <h2 class="section-title">Achievements &amp; Certifications</h2>
+          <p class="section-description">
+            Recognitions, certifications, and problem-solving benchmarks. Placeholders ready for verified credentials.
+          </p>
+        </div>
+
+        <div class="achievements-grid">
+          <!-- Card 1: Technical Certification -->
+          <div class="achievement-card reveal">
+            <div class="achievement-icon-wrapper purple">
+              <img src="assets/icons/award.svg" alt="" width="24" height="24">
+            </div>
+            <h3 class="achievement-title">[Certification: Java Programming / Core CS]</h3>
+            <div class="achievement-issuer">[Issuing Organization, e.g. Oracle / Coursera / HackerRank]</div>
+            <p class="achievement-desc">
+              Demonstrated proficiency in object-oriented programming, data structures, exception handling, multithreading, and Java Collections Framework.
+            </p>
+            <div class="achievement-footer">
+              <span>Date: [Month, Year]</span>
+              <span class="placeholder-badge">Credential: [ID / Link]</span>
+            </div>
+          </div>
+
+          <!-- Card 2: Coding & DSA Benchmark -->
+          <div class="achievement-card reveal reveal-delay-1">
+            <div class="achievement-icon-wrapper blue">
+              <img src="assets/icons/terminal.svg" alt="" width="24" height="24">
+            </div>
+            <h3 class="achievement-title">[Problem Solving Milestone: LeetCode / GFG]</h3>
+            <div class="achievement-issuer">[Platform: LeetCode / GeeksforGeeks / CodeChef]</div>
+            <p class="achievement-desc">
+              Consistent practice and resolution of algorithmic problems spanning arrays, two-pointer techniques, binary trees, recursion, and dynamic programming.
+            </p>
+            <div class="achievement-footer">
+              <span>Solved: [X+ Problems]</span>
+              <span class="placeholder-badge">Profile: [Profile Link]</span>
+            </div>
+          </div>
+
+          <!-- Card 3: Academic / Hackathon Milestone -->
+          <div class="achievement-card reveal reveal-delay-2">
+            <div class="achievement-icon-wrapper pink">
+              <img src="assets/icons/sparkles.svg" alt="" width="24" height="24">
+            </div>
+            <h3 class="achievement-title">[Hackathon / Academic Recognition]</h3>
+            <div class="achievement-issuer">[University / Tech Symposium / Event Name]</div>
+            <p class="achievement-desc">
+              Participated in collaborative software development competitions or recognized for academic excellence within the Computer Science Department.
+            </p>
+            <div class="achievement-footer">
+              <span>Year: [202X]</span>
+              <span class="placeholder-badge">Status: [Participant / Rank]</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Verification Notice -->
+        <div class="cert-notice reveal">
+          <svg style="color: var(--vibrant-purple); flex-shrink: 0;" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="8" x2="12" y2="12"></line>
+            <line x1="12" y1="16" x2="12.01" y2="16"></line>
+          </svg>
+          <div class="cert-notice-text">
+            <strong>Authenticity Guarantee:</strong> In accordance with strict portfolio integrity standards, achievements and credentials are kept as clear placeholders until officially verified with certificates and credential links.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         8. CONTACT SECTION
+         ==================================================================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">
+            <img src="assets/icons/mail.svg" alt="" width="14" height="14">
+            <span>Get In Touch</span>
+          </div>
+          <h2 class="section-title">Let's Discuss Opportunities</h2>
+          <p class="section-description">
+            Looking for software engineering internships, open-source collaborations, or discussions on Java &amp; DSA? My inbox is always open!
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Column: Contact Cards Stack -->
+          <div class="contact-info reveal">
+            <p class="contact-lead">
+              I am actively seeking <strong>software engineering internship</strong> opportunities for 2026/2027 where I can contribute to meaningful codebases and grow under experienced engineering mentorship.
+            </p>
+
+            <div class="contact-cards-stack">
+              <!-- Email Card -->
+              <a href="mailto:abhishekgoyat458@gmail.com" class="contact-card-item">
+                <div class="contact-icon-box">
+                  <img src="assets/icons/mail.svg" alt="" width="20" height="20">
+                </div>
+                <div>
+                  <div class="contact-item-title">Direct Email</div>
+                  <div class="contact-item-value">abhishekgoyat458@gmail.com</div>
+                </div>
+              </a>
+
+              <!-- LinkedIn Card -->
+              <a href="https://linkedin.com/in/[your-linkedin-username]" target="_blank" rel="noopener noreferrer" class="contact-card-item">
+                <div class="contact-icon-box" style="background: rgba(139, 92, 246, 0.12); border-color: rgba(139, 92, 246, 0.25); color: var(--vibrant-purple);">
+                  <img src="assets/icons/linkedin.svg" alt="" width="20" height="20">
+                </div>
+                <div>
+                  <div class="contact-item-title">Professional Network</div>
+                  <div class="contact-item-value">linkedin.com/in/[your-linkedin-username]</div>
+                </div>
+              </a>
+
+              <!-- GitHub Card -->
+              <a href="https://github.com/[your-github-username]" target="_blank" rel="noopener noreferrer" class="contact-card-item">
+                <div class="contact-icon-box" style="background: rgba(236, 72, 153, 0.12); border-color: rgba(236, 72, 153, 0.25); color: var(--vivid-pink);">
+                  <img src="assets/icons/github.svg" alt="" width="20" height="20">
+                </div>
+                <div>
+                  <div class="contact-item-title">Code Repositories</div>
+                  <div class="contact-item-value">github.com/[your-github-username]</div>
+                </div>
+              </a>
+
+              <!-- Location Card -->
+              <div class="contact-card-item">
+                <div class="contact-icon-box">
+                  <img src="assets/icons/map-pin.svg" alt="" width="20" height="20">
+                </div>
+                <div>
+                  <div class="contact-item-title">Current Location</div>
+                  <div class="contact-item-value">[Your City, State, Country]</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Contact Form -->
+          <div class="contact-form-card reveal reveal-delay-1">
+            <form id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="senderName" class="form-label">Your Name</label>
+                <input type="text" id="senderName" class="form-control" placeholder="e.g. Alex Morgan" required autocomplete="name">
+                <span class="error-msg">Please enter your full name (at least 2 characters).</span>
+              </div>
+
+              <div class="form-group">
+                <label for="senderEmail" class="form-label">Email Address</label>
+                <input type="email" id="senderEmail" class="form-control" placeholder="alex@company.com" required autocomplete="email">
+                <span class="error-msg">Please provide a valid email address.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="senderSubject" class="form-label">Subject</label>
+                <input type="text" id="senderSubject" class="form-control" placeholder="Internship Opportunity / Project Inquiry" required>
+                <span class="error-msg">Please specify a subject for your message.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="senderMessage" class="form-label">Message</label>
+                <textarea id="senderMessage" class="form-control" placeholder="Hi Abhishek, I came across your portfolio and would love to discuss..." required></textarea>
+                <span class="error-msg">Message must be at least 10 characters long.</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <span>Send Message</span>
+                <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================================================================
+       FOOTER
+       ====================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="brand-logo" aria-label="Abhishek Home">
+            <span class="brand-code">&lt;</span>Abhishek<span class="brand-code">/&gt;</span>
+            <span class="brand-dot"></span>
+          </a>
+          <p class="footer-tagline">
+            Computer Science &amp; Engineering undergraduate dedicated to building robust software, mastering algorithms, and exploring full-stack engineering.
+          </p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer Navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#projects">Projects</a>
+          <a href="#github">GitHub</a>
+          <a href="#achievements">Achievements</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Abhishek. Crafted with HTML5, CSS3 &amp; Vanilla JavaScript.
+        </div>
+
+        <div class="social-links-row">
+          <a href="https://github.com/[your-github-username]" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub Profile">
+            <img src="assets/icons/github.svg" alt="" width="16" height="16">
+          </a>
+          <a href="https://linkedin.com/in/[your-linkedin-username]" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn Profile">
+            <img src="assets/icons/linkedin.svg" alt="" width="16" height="16">
+          </a>
+          <a href="mailto:abhishekgoyat458@gmail.com" class="social-icon-btn" aria-label="Email Abhishek">
+            <img src="assets/icons/mail.svg" alt="" width="16" height="16">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ======================================================================
+       PROJECT DETAILS MODAL DIALOG
+       ====================================================================== -->
+  <div class="modal-overlay" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close dialog">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <span class="section-tag purple" id="modalBadge" style="margin-bottom: 0.75rem;">Technology</span>
+      <h3 class="modal-title" id="modalTitle">Project Title</h3>
+      
+      <p class="modal-body" id="modalDesc">Detailed description goes here.</p>
+
+      <div style="margin-top: 1.5rem;">
+        <h4 style="font-size: 1rem; color: #ffffff; margin-bottom: 0.75rem;">Key Architectural Highlights:</h4>
+        <ul class="modal-feature-list" id="modalFeatures">
+          <!-- Populated by JavaScript -->
+        </ul>
+      </div>
+
+      <div style="margin-top: 1.5rem;">
+        <h4 style="font-size: 1rem; color: #ffffff; margin-bottom: 0.75rem;">Technologies Employed:</h4>
+        <div class="project-tech-tags" id="modalTechTags">
+          <!-- Populated by JavaScript -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       TOAST NOTIFICATION COMPONENT
+       ====================================================================== -->
+  <aside class="toast-notice" id="toastNotice" role="alert" aria-live="polite">
+    <div class="toast-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+      </svg>
+    </div>
+    <div>
+      <div class="toast-title" id="toastTitle">Notification</div>
+      <div class="toast-desc" id="toastDesc">Operation completed successfully.</div>
+    </div>
+  </aside>
+
+  <!-- ======================================================================
+       BACK TO TOP FLOATING BUTTON
+       ====================================================================== -->
+  <button class="back-to-top" id="backToTopBtn" aria-label="Scroll back to top of page" title="Back to top">
+    <img src="assets/icons/arrow-up.svg" alt="" width="20" height="20">
+  </button>
+
+  <!-- Scripts -->
+  <script src="js/script.js"></script>
+</body>
+</html>

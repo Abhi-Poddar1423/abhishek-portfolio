@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="100%" height="100%">
+  <defs>
+    <linearGradient id="phGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#1e112a" />
+    </linearGradient>
+    <linearGradient id="glowG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="350" rx="16" fill="url(#phGrad)" />
+  
+  <!-- Dashed border representation -->
+  <rect x="25" y="25" width="550" height="300" rx="12" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="8 6" />
+
+  <!-- Center Icon & Text -->
+  <g transform="translate(300, 150)">
+    <circle cx="0" cy="0" r="45" fill="#1e293b" stroke="url(#glowG)" stroke-width="2" />
+    <path d="M-12 -12 L12 12 M12 -12 L-12 12" stroke="#94a3b8" stroke-width="3" stroke-linecap="round" />
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#38bdf8" stroke-width="2" />
+    <text x="0" y="75" text-anchor="middle" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="700">Next Exciting Build in Progress</text>
+    <text x="0" y="100" text-anchor="middle" fill="#94a3b8" font-family="'DM Sans', sans-serif" font-size="13">Full-Stack Web Application / Java Microservice</text>
+  </g>
+</svg>

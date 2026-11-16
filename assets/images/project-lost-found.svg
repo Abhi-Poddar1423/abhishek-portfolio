@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="100%" height="100%">
+  <defs>
+    <linearGradient id="lfBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120" />
+      <stop offset="100%" stop-color="#161233" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="350" rx="16" fill="url(#lfBg)" />
+
+  <!-- Grid lines -->
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="70" x2="600" y2="70" />
+    <line x1="0" y1="140" x2="600" y2="140" />
+    <line x1="0" y1="210" x2="600" y2="210" />
+    <line x1="0" y1="280" x2="600" y2="280" />
+    <line x1="120" y1="0" x2="120" y2="350" />
+    <line x1="240" y1="0" x2="240" y2="350" />
+    <line x1="360" y1="0" x2="360" y2="350" />
+    <line x1="480" y1="0" x2="480" y2="350" />
+  </g>
+
+  <!-- Application Window Mockup (Java Swing UI theme) -->
+  <rect x="50" y="45" width="500" height="260" rx="12" fill="#0f172a" stroke="#334155" stroke-width="2" />
+  
+  <!-- Window Header -->
+  <path d="M50 57 A 12 12 0 0 1 62 45 L 538 45 A 12 12 0 0 1 550 57 L 550 80 L 50 80 Z" fill="#1e293b" />
+  <circle cx="75" cy="62" r="5" fill="#ef4444" />
+  <circle cx="95" cy="62" r="5" fill="#eab308" />
+  <circle cx="115" cy="62" r="5" fill="#22c55e" />
+  <text x="140" y="66" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600">Smart Campus Lost &amp; Found Portal — Java Swing GUI</text>
+
+  <!-- Left Sidebar / Navigation Mock -->
+  <rect x="65" y="95" width="120" height="195" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1" />
+  <rect x="75" y="110" width="100" height="24" rx="4" fill="url(#accentGrad)" opacity="0.8" />
+  <text x="85" y="126" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="700">📦 Lost Items</text>
+  <rect x="75" y="145" width="100" height="24" rx="4" fill="#1e293b" />
+  <text x="85" y="161" fill="#94a3b8" font-family="sans-serif" font-size="11">🔍 Found Claim</text>
+  <rect x="75" y="180" width="100" height="24" rx="4" fill="#1e293b" />
+  <text x="85" y="196" fill="#94a3b8" font-family="sans-serif" font-size="11">📊 DB Records</text>
+
+  <!-- Right Content Area / Database & Search View -->
+  <!-- Search bar -->
+  <rect x="200" y="95" width="335" height="32" rx="6" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5" />
+  <text x="215" y="116" fill="#cbd5e1" font-family="monospace" font-size="12">SELECT * FROM items WHERE status = 'REPORTED'...</text>
+
+  <!-- Table mock -->
+  <rect x="200" y="140" width="335" height="150" rx="8" fill="#111827" stroke="#1e293b" stroke-width="1" />
+  <!-- Table Header -->
+  <rect x="200" y="140" width="335" height="26" fill="#1e293b" />
+  <text x="212" y="157" fill="#60a5fa" font-family="sans-serif" font-size="10" font-weight="bold">ITEM ID</text>
+  <text x="270" y="157" fill="#60a5fa" font-family="sans-serif" font-size="10" font-weight="bold">CATEGORY</text>
+  <text x="350" y="157" fill="#60a5fa" font-family="sans-serif" font-size="10" font-weight="bold">CAMPUS SPOT</text>
+  <text x="460" y="157" fill="#60a5fa" font-family="sans-serif" font-size="10" font-weight="bold">STATUS</text>
+
+  <!-- Row 1 -->
+  <text x="212" y="185" fill="#f8fafc" font-family="monospace" font-size="11">#LF-104</text>
+  <text x="270" y="185" fill="#e2e8f0" font-family="sans-serif" font-size="11">Laptop Bag</text>
+  <text x="350" y="185" fill="#94a3b8" font-family="sans-serif" font-size="11">CS Lab 3</text>
+  <rect x="455" y="172" width="65" height="18" rx="4" fill="#065f46" />
+  <text x="465" y="185" fill="#34d399" font-family="sans-serif" font-size="10" font-weight="bold">RESOLVED</text>
+
+  <!-- Row 2 -->
+  <text x="212" y="215" fill="#f8fafc" font-family="monospace" font-size="11">#LF-105</text>
+  <text x="270" y="215" fill="#e2e8f0" font-family="sans-serif" font-size="11">ID Card</text>
+  <text x="350" y="215" fill="#94a3b8" font-family="sans-serif" font-size="11">Library 2F</text>
+  <rect x="455" y="202" width="65" height="18" rx="4" fill="#854d0e" />
+  <text x="465" y="215" fill="#fde047" font-family="sans-serif" font-size="10" font-weight="bold">PENDING</text>
+
+  <!-- Row 3 -->
+  <text x="212" y="245" fill="#f8fafc" font-family="monospace" font-size="11">#LF-106</text>
+  <text x="270" y="245" fill="#e2e8f0" font-family="sans-serif" font-size="11">Scientific Calc</text>
+  <text x="350" y="245" fill="#94a3b8" font-family="sans-serif" font-size="11">Seminar Hall</text>
+  <rect x="455" y="232" width="65" height="18" rx="4" fill="#1e3a8a" />
+  <text x="465" y="245" fill="#93c5fd" font-family="sans-serif" font-size="10" font-weight="bold">CLAIMED</text>
+
+  <!-- Floating Tech Badges -->
+  <g transform="translate(420, 260)">
+    <rect width="115" height="30" rx="15" fill="#0b0f19" stroke="#8b5cf6" stroke-width="1.5" />
+    <text x="14" y="20" fill="#c084fc" font-family="monospace" font-size="12" font-weight="700">JDBC + MySQL</text>
+  </g>
+</svg>
